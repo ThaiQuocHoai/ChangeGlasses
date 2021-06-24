@@ -1,0 +1,52 @@
+.background__img img{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    position: relative;
+}
+
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00000073;
+    width: 100%;
+    height: 750px;
+}
+
+.text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: #00000099;
+    display:inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0!important;
+}
+
+.human{
+    width: 70%;
+    margin: auto;
+}
+
+.human img{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 15%;
+    height: 30%;
+}
+
+
+.glasses img{
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 7%;
+    height: 5%;
+}
